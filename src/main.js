@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+import AlertModal from "@/components/common/AlertModal.vue";
+const app = createApp(App);
+app.component("AlertModal", AlertModal);
+app.mount("#app");
