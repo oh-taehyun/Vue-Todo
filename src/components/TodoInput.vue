@@ -17,7 +17,6 @@
 </template>
 <script>
 
-import AlertModal from '@/components/common/AlertModal.vue';
 export default {
     data() {
         return {
@@ -38,9 +37,6 @@ export default {
         clearInput() {
             this.newTodoItem = '';
         },
-        Components: {
-            AlertModal: AlertModal
-        }
     }
 }
 </script>
